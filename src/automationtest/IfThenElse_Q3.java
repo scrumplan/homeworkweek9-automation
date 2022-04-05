@@ -14,15 +14,15 @@ OutPut
 public class IfThenElse_Q3 {
     //return type no parameters
     public boolean isTeen(int age) {
-        boolean r;
+        
         if (age <= 18) {
-            r = true;
+            return true;
 
 
         } else {
-            r = false;
+            return false;
         }
-        return r;
+        
     }
 
     public static void main(String[] args) {
