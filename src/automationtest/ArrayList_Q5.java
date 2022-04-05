@@ -27,9 +27,8 @@ public class ArrayList_Q5 {
         values.add("Postman");
         values.add("Rest Assured");
          //foreach loop using
-        for(int i = 0; i < values.size(); i++){
-            System.out.println(values.get(i));
-        }
+        for (String car : values){
+            System.out.println(car);
 
     }
 }
